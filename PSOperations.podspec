@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 	s.name         	= "PSOperations"
-	s.version      	= "5.0.10"
+	s.version      	= "5.0.11"
 	s.swift_version = "5.9"
 	s.summary      	= "This is an adaptation of the sample code provided in the Advanced NSOperations session of WWDC 2015"
 	s.description  	= <<-DESC
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 	This is an adaptation of the sample code provided in the [Advanced NSOperations session of WWDC 2015](https://developer.apple.com/videos/wwdc/2015/?id=226).
 	DESC
 
-	s.homepage	= "https://powershare-gitlab.chargerhere.net/zhidong.yang/PSOperations"
+	s.homepage	= "https://github.com/TimorYang/PSOperations"
 	s.license	= { :type => 'Apache 2.0' }
 	s.author	= "Matt McMurry", "Mark Schultz"
 
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
 	s.requires_arc = true
 
-	s.source = {  git: "git@powershare-gitlab.chargerhere.net:zhidong.yang/PSOperations.git",  tag: s.version.to_s  }
+	s.source = {  git: "git@github.com:TimorYang/PSOperations.git",  tag: s.version.to_s  }
 	
 	s.source_files = "PSOperations/*.swift"
 
